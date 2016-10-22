@@ -30,6 +30,7 @@ class Reader extends TodoMove\Intercessor\Service\Reader
         $this->parseFolders(); // Folders before projects, as we attach the projects to the folders
         $this->parseProjects(); // This attaches projects to folders
         $this->parseTasks(); // This attaches tasks to projects
+	$this->name('Reader');
     }
 
     /**
