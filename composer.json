@@ -1,7 +1,8 @@
 {
-    "name": "todomove/[ServiceName]",
-    "description": "Classes to read and write from [ServiceName] utilising Intercessor classes ",
+    "name": "todomove/ServiceName",
+    "description": "Classes to read and write from ServiceName utilising Intercessor classes",
     "license": "MIT",
+    "keywords": ["ServiceName"],
     "authors": [
         {
             "name": "Ashley Hindle",
@@ -9,7 +10,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "TodoMove\\Service\\[ServiceName]\\" : "./" }
+        "psr-4": { "TodoMove\\Service\\ServiceName\\" : "./" }
     },
     "require": {
         "php": ">= 5.5",
